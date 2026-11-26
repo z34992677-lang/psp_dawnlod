@@ -1,0 +1,340 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+@font-face {
+    font-family: "yekan";
+        src: url("font/yekan-font/B\ Koodak\ Bold_0.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+.art{
+    background-color:rgb(225, 63, 63);
+    color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.art span{
+    font-size: 35px;
+    padding: 0 5px;
+}
+.beb1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    gap: 10px;
+    padding-top: 3px;
+}
+.bob{
+    border: 1px solid rgb(131, 121, 121);
+    border-radius: 10px;
+    width: 80px;
+    height: 100px;
+    padding: 0 4px;
+    position: relative;
+    right: 10px;
+}
+.bob img{
+    width: 70px;
+    height: 70px;
+}
+.bob p{
+    font-weight: bold;
+    text-align: center;
+}
+.box1{
+    display: flex;
+    align-items: center;
+}
+.bex img{
+    width: 150px;
+}
+.bex input{
+    width: 400px;
+    height: 40px;
+    background-color: rgb(239, 239, 255);
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.box1 .bax img{
+    direction: rtl;
+    position: relative;
+    right: 695px;
+}
+.bax img{
+    width: 90px;
+    height: 50px;
+    border: 3px solid rgb(243, 237, 237);
+    border-radius: 10%;
+}
+.qora form{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.qora ul{
+    padding: 0px 10px 0 5px;
+    font-family: yekan;
+    border-left: 1px solid rgb(109, 109, 109);
+}
+.war1{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    gap: 130px;
+    
+}
+.rew img{
+    width: 100px;  
+}
+.rew p{
+    text-align: center;
+    font-family: "yekan";
+}
+.box2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+}
+.try img{
+    width: 665px;
+    border-radius: 5px;
+}
+.wez{
+    color: white;
+    padding: 5px;
+    position: relative;
+    top: 50px;
+}
+.wizard{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap: 15px;
+    border: 3px solid rgb(175, 10, 10);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(175, 10, 10);
+    width: 1335px;
+    height: 300px;
+    margin: 2px;
+    
+}
+.wiz{
+    direction: ltr;
+    border: 1px solid rgb(175, 10, 10);
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 130px;
+    height: 220px;
+    position: relative;
+    right: 40px;
+    top: 70px;
+}
+.wiz img{
+    width: 120px;
+    padding: 6px;
+}
+.wiz p{
+    text-align: center;
+    font-family: "chekan";
+    font-weight: bold;
+}
+.wcz{
+    color: white;
+}
+.pool{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+}
+.pwl img{
+    border-radius: 10px;
+    width: 660px;
+    height: 250px;
+    margin: 3px;
+}
+.vanil{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap: 15px;
+    border: 3px solid rgb(10, 175, 24);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(10, 175, 24);
+    width: 1335px;
+    height: 300px;
+    margin: 2px;
+}
+.van{
+    direction: ltr;
+    border: 1px solid rgb(10, 175, 24);
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 130px;
+    height: 220px;
+    position: relative;
+    right: 40px;
+    top: 70px;
+}
+.van img{
+    width: 120px;
+    padding: 6px;
+}
+.van p{
+    text-align: center;
+    font-weight: bold;
+}
+.logan{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(9,2fr);
+    gap: 15px;
+}
+.log{
+    text-align: center;
+}
+.log img{
+
+    width: 100px;
+}
+.log p{
+    text-align: center;
+    font-family: "yekan";
+    font-weight: bold;
+}
+.ui img{
+    width: 1335px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.hi{
+    padding: 5px;
+    position: relative;
+    top: 50px;
+}
+.city{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    gap: 15px;
+    border: 2px solid rgb(223, 223, 223);
+    height: 250px;
+}
+.ci{
+    text-align: center;
+    border: 2px solid rgb(219, 219, 219);
+    height: 180px;
+    border-radius: 10px ;
+    position: relative;
+    top: 65px;
+}
+.ci img{
+    width: 100px;
+    padding: 5px;
+}
+.ci p{
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+.class img{
+    width: 1325px;
+    margin: 5px;
+    border-radius: 10px;
+}
+h2{
+    position: relative;
+    top: 45px;
+    padding-right: 10px;
+}
+.for2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    gap: 15px;
+    border: 2px solid rgb(223, 223, 223);
+    height: 300px;
+}
+.fo{
+    text-align: center;
+    border: 2px solid rgb(219, 219, 219);
+    height: 230px;
+    border-radius: 10px ;
+    position: relative;
+    top: 50px;
+}
+.fo img{
+    width: 149px;
+    padding: 3px;
+}
+.fo p{
+    text-align: center;
+    font-weight: bold;
+}
+.po img{
+    width: 1330px;
+    margin: 3px;
+}
+.gol2{
+    display: flex;
+}
+.gol2 ul{
+    padding-right: 20px;
+    border-left: 1px solid rgb(109, 109, 109);
+}
+.adruy{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-right: 150px;
+}
+.adr p{
+    position: relative;
+    left: 35px;
+    font-weight: bold;
+}
+.player{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-right: 10px;
+}
+.player p{
+    font-size: 30px;
+    font-family: "yekan";
+}
+.player ul{
+    font-family: "yekan";
+    color: rgb(75, 72, 72);
+}
+.end{
+    margin: 5px;
+}
+.en1,.en2{
+    font-family: "yekan";
+}
+.en2{
+    color: rgb(33, 33, 33);
+}
+.ende{
+    width: 450px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    position: relative;
+    right: 440px;
+}
+.en3 img{
+    width: 100px;
+}
